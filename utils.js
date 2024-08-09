@@ -125,7 +125,7 @@ exports.validateServiceAccount = async function (creds) {
 	globalView[0].projName = res.results.projects[project].name;
 	globalView[0].projId = project;
 
-	// get project metadata
+/*	// get project metadata
 	let metaData = (await fetch(URLs.getMetaData(project, region), {
 		headers: { Authorization: auth }
 	}).catch((e) => {
@@ -139,8 +139,9 @@ exports.validateServiceAccount = async function (creds) {
 	globalView[0].api_key = metaData?.api_key;
 	globalView[0].secret = metaData?.secret;
 	globalView[0].token = metaData?.token;
-
+*/
 	return globalView[0];
+
 };
 
 exports.makeProjectFolder = async function (workspace) {

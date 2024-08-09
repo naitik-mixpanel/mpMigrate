@@ -456,7 +456,7 @@ const hero = String.raw`
 
 const banner = `\n\t(by AK) v${require('./package.json').version}
 
-this script can COPY data (events + users) as well as saved entities (boards, reports, cohorts, custom event/props)\n\t ...from one project to another\n\n`;
+(local version)this script can COPY data (events + users) as well as saved entities (boards, reports, cohorts, custom event/props)\n\t ...from one project to another\n\n`;
 
 const welcome = hero.concat(banner);
 
