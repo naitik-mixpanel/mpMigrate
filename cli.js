@@ -454,7 +454,7 @@ const hero = String.raw`
 ┴ ┴┴    ┴ ┴┴└─┘┴└─┴ ┴ ┴ └─┘
 `;
 
-const banner = `\n\t(by AK) v${require('./package.json').version}
+const banner = `\n\t(by Naitik) v${require('./package.json').version}
 
 (forked version)this script can COPY data (events + users) as well as saved entities (boards, reports, cohorts, custom event/props)\n\t ...from one project to another\n\n`;
 
