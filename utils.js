@@ -124,7 +124,7 @@ exports.validateServiceAccount = async function (creds) {
 	//workspace metadata does not contain project name
 	globalView[0].projName = res.results.projects[project].name;
 	globalView[0].projId = project;
-
+//commeting this code as AK mentioned 
 /*	// get project metadata
 	let metaData = (await fetch(URLs.getMetaData(project, region), {
 		headers: { Authorization: auth }
